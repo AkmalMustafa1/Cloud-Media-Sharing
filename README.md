@@ -1,5 +1,5 @@
-﻿# Image Gallery Azure_Blob_storage Educator_Developer_Blog  Repository
-![Screenshot 2023-08-05 172736]("https://github.com/AkmalMustafa1/Cloud-Media-Sharing/blob/main/Screenshot%202025-04-15%20135956.png")
+﻿# Image Gallery Azure_Blob_storage Akmal Cloud Media Sharing  Repository
+![Screenshot 2023-08-05 172736](https://github.com/kelcho-spense/Image_Gallery_Azure_Blob_storage-Educator_Developer_Blog-/assets/57180726/38761210-2d3f-4f48-b54f-d923c43b6773)
  
 ## What is Azure Blob Storage?
 Azure Blob Storage is a Microsoft Azure cloud-based object storage solution. It enables developers to use blobs to store and manage unstructured data such as documents, photos, videos, backups, and logs. Blobs can be grouped together to form containers, providing a scalable and cost-effective method for storing and retrieving massive amounts of data.
