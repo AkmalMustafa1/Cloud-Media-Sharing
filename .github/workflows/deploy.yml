@@ -1,9 +1,4 @@
-name: Deploy React App to Azure Blob Storage
-
-on:
-  push:
-    branches:
-      - main  # Or change to the branch you want to trigger deployment from
+# Only showing the changed parts
 
 jobs:
   build-and-deploy:
@@ -20,9 +15,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: frontend
 
       - name: Build React app
         run: npm run build
+        working-directory: frontend
 
       - name: Upload to Azure Blob Storage
         uses: azure/CLI@v1
@@ -37,5 +34,6 @@ jobs:
             az storage blob upload-batch \
               --account-name akmalcloudnative \
               --destination \$web \
-              --source ./build \
+              --source ./frontend/build \
               --overwrite
+
